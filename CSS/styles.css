@@ -1,0 +1,159 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Graphik, Arial, Helvetica, sans-serif;
+    
+}
+
+.background{
+    background-image: url("/original.jpg") ;
+    background-size: cover;
+}
+
+.login {
+    color: #A8AFBD;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 45px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h2{
+    padding: 40px;
+
+}
+
+
+
+.disney-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: antiquewhite;
+    font-size: 12px;
+    font-weight: 200;
+    padding: 0px;
+    text-transform: uppercase;
+    
+    
+}
+
+.price-1{
+    text-transform: none;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.price-2{
+    text-transform: none;  
+    font-size: 25px;
+    font-weight: 700;  
+}
+
+.info{
+    text-align: center;
+    box-sizing: border-box;
+    column-gap: 16px;
+    display: grid;
+}
+
+h3{
+    color: #1ce783;
+}
+
+.but1, .but2{
+    background-color: #1ce783;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.6px;
+    font-family: Graphik Web, sans-serif;
+    font-weight: 600;
+    border-style: solid #1ce783;
+    height: 50px;
+    border-radius: 4px;
+    width: 350px;
+    
+}
+.terms a{
+    color:lightgray;
+    font-size: 12px;
+}
+
+   
+.terms{
+    text-align: center;
+}
+
+.info-trio{
+    padding-right: 340px;
+    margin-right: auto;
+}
+
+.info-duo{
+    padding-left: 350px;
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+.img1{
+    height: 60px;
+    padding-left: 105px;
+}
+
+.img2{
+    height: 60px;
+    padding-left: 30px;
+}
+
+h3{
+    padding-bottom: 40px;
+}
+
+
+
+.signup{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.signup a{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.plans{
+    display: grid;
+    color: white;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    font-size: 12px;       
+    font-weight: 700; 
+}
+
+
+
+
+.arrow{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.img3{
+    height: 66px;
+    width: 66px;
+    border-radius: 50%;
+    margin: 0 auto 70px;
+    background: transparent;
+    border: 1px solid #f6f7f8;
+}
